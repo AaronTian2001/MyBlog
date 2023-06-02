@@ -35,7 +35,7 @@
 	text-align: center;
 	line-height: 105px;
 	color: #FFFFFF;
-	font-family: "得意黑";
+	/* font-family: "得意黑"; */
 }
 
 
@@ -121,7 +121,7 @@
 	width: 100px;
 	height: 100px;
 	position: relative;
-	top: 100px;
+	top: 60px;
 	left: 650px;
 	border-radius: 100px;
 	/* 覆盖全部 */
@@ -141,8 +141,8 @@
 .profile{
 	width: 800px;
 	height: 420px;
-	position: fixed;
-	top: 270px;
+	position: relative;
+	top: 20px;
 	left: 300px;
 	border-radius: 20px;
 	background-color: #f8f8f8;
@@ -154,7 +154,8 @@
 	width: 600px;
 	height: 200px;
 	position: relative;
-	margin: 50px auto;
+	padding-top: 46px;
+	margin: 0px auto;
 }
 
 /* td{
@@ -242,7 +243,7 @@
 	width: 600px;
 	height: 80px;
 	position: relative;
-	margin: 2px auto;
+	margin: 30px auto;
 }
 .title3{
 	height: 30px;
