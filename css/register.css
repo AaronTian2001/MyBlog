@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* div {
+	border: #333333 1px solid;
+}
+ */
+body {
+	background: url(../img/sea2.jpg) center no-repeat;
+}
+
+.all {
+	/* 将 html 和 body 元素的高度设置为 100%，
+	并将 margin 和 padding 设置为 0，
+	以确保整个页面的高度可以充满屏幕 */
+	/* 将 all 元素的高度设置为 100vh，表示占据整个视口的高度，
+	将宽度设置为 100vw，表示占据整个视口的宽度。 */
+	height: 100vh;
+	width: 100vw;
+	/* 通过设置 display: flex，
+	我们可以使用弹性布局来垂直和水平居中 all 元素的内容。 */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.box{
+	width: 800px;
+	height: 500px;
+	/* 圆角 */
+	border-radius: 20px;
+	background-color: #FFF;
+	/* 0px 表示阴影的水平偏移量为 0；
+	   2px 表示阴影的垂直偏移量为 2px；
+       6px 表示阴影的模糊度为 6px；
+       rgba(0, 0, 0, 0.3) 表示阴影的颜色为黑色
+	   （RGB 值为 0, 0, 0）且透明度为 0.3。 */
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+.left{
+	width: 380px;
+	height: 400px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 10px;
+	/* contain cover:缩放 */
+	background: url(../img/注册完成.png) center / contain no-repeat;
+}
+
+.right{
+	width: 380px;
+	height: 400px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 10px;
+}
+
+.right .top {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #275DC5;
+}
+
+.td {
+	padding: 10px;
+	margin-left: 10px;
+}
+
+
+.user {
+	width: 240px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px #a5a5a5 solid;
+	border-radius: 14px;
+	padding: 0px 30px 0px 40px;
+	margin-top: 30px;
+	margin-left: 36px;
+	background: url(../img/用户.png) no-repeat 14px center white;
+}
+
+.user:hover {
+	border: #275dc5 2px solid;
+}
+
+.password {
+	width: 240px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px #a5a5a5 solid;
+	border-radius: 14px;
+	padding: 0px 30px 0px 40px;
+	margin-top: 30px;
+	margin-left: 36px;
+	background: url(../img/密码.png) no-repeat 14px center white;
+}
+
+.password:hover {
+	border: #275dc5 2px solid;
+}
+
+.confirm_password {
+	width: 240px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px #a5a5a5 solid;
+	border-radius: 14px;
+	padding: 0px 30px 0px 40px;
+	margin-top: 30px;
+	margin-left: 36px;
+	background: url(../img/密码.png) no-repeat 14px center white;
+}
+
+.confirm_password:hover {
+	border: #275dc5 2px solid;
+}
+
+.button {
+	width: 280px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px #465c99 solid;
+	border-radius: 14px;
+	background: #275DC5;
+	color: #FFF;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+.button:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.login{
+	width: 380px;
+	height: 40px;
+	/* 通过设置 display: flex，
+	我们可以使用弹性布局来垂直和水平居中 all 元素的内容。 */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

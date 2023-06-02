@@ -1,0 +1,554 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	/* 行高 */
+	line-height: 1.75;
+}
+
+/* div {
+	border: #333333 1px solid;
+} */
+
+
+/* 顶部logo样式 */
+.banner {
+
+	
+	height: 105px;
+	background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
+}
+
+
+.top_text {
+	/* 打字机样式 */
+	overflow: hidden;
+	white-space: nowrap;
+	
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 105px;
+	color: #FFFFFF;
+	font-family: "得意黑";
+}
+
+
+/* 导航样式 */
+.nav {
+	background: #4facfe;
+	position: fixed;
+	/* 				top: 0;
+				left: 0; */
+	width: 100%;
+	z-index: 100;
+	/* 全覆盖 */
+}
+
+/* 当banner看不见时，讲导航栏切换此样式 */
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.nav ul {
+	display: flex;
+	justify-content: center;		/* 居中对齐 */
+	padding: 0;
+}
+
+.nav li {
+	/* 每个列表项 <li> 设置为 inline-block，
+				这样它们会在同一行显示，
+				并且可以根据需要设置左右间距 */
+	display: inline-block;
+	/* 边距为10 */
+	/* margin: 0 10px; */
+
+}
+
+.item1 {
+	background: url(../img/首页.png) no-repeat 20px center;
+}
+
+.item2 {
+	background: url(../img/笔记.png) no-repeat 20px center;
+}
+
+.item3 {
+	background: url(../img/分类.png) no-repeat 20px center;
+}
+
+.item4 {
+	background: url(../img/关于.png) no-repeat 20px center;
+}
+
+.item5 {
+	background: url(../img/链接.png) no-repeat 20px center;
+}
+
+
+
+#dis li{
+	clear: left;
+	margin-top: 1px;
+}
+
+.nav li a {
+	line-height: 50px;
+	font-size: 18px;
+	padding: 0 50px;
+	color: #FFFFFF;
+}
+
+.nav li a:link {
+	text-decoration: none;
+}
+
+.nav li:hover {
+	background-color: #6bcdf9;
+}
+
+
+/* 博客内容样式 */
+.main {
+
+	height: 1200px;
+	background: url(../img/sea2.jpg) center no-repeat;
+	background-attachment: fixed;
+	/* 固定 */
+	
+}
+
+
+/* welcome样式 */
+.box_one{
+	width: 300px;
+	height: 270px;
+	margin: 0px auto;
+	position: relative;
+	top: 80px;
+}
+.box_one h1{
+	color: #FFF;
+	font-size: 100px;
+	font-family: "得意黑";
+	text-align: center;
+	padding: 20px auto;
+}
+.box_one .preface{
+	/* 打字机样式 */
+	overflow: hidden;
+	white-space: nowrap;
+	
+	color: #FFF;
+	font-size: 20px;
+	text-align: center;
+}
+.box_one .back1{
+	width: 120px;
+	height: 40px;
+	margin: 10px auto;
+	background-color: #275DC5;
+	border-radius: 20px;
+	align-items: center;
+
+}
+.box_one .back1:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.box_one .back1 a{
+	/* 改成块状元素 */
+	display: inline-block;
+	line-height: 40px;
+	color: #FFF;
+	text-decoration: none;
+	padding-left: 44px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+
+.box_two{
+	width: 1000px;
+	height: 390px;
+	margin: 0px auto;
+	position: relative;
+	top: 120px;
+	background-color: #f8f8f8;
+	border-radius: 20px;
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.title1{
+	width: 1000px;
+	height: 60px;
+	background-color: #FFF;
+	border-radius: 20px;
+}
+
+.title1 p{ 
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 60px;
+	text-align: center;
+}
+
+/* Page1 */
+.page1{
+	width: 300px;
+	height: 260px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 30px;
+	border-radius: 20px;
+	background-color: #FFF;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+}
+.page1:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+.head_text1{
+	width: 300px;
+	height: 180px;
+	/* background-color: #275DC5; */
+	border-radius: 20px;
+	background: url(../img/card2.jpg) center / cover no-repeat;
+}
+.head_text1:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+.page_content1{
+	width: 300px;
+	height: 30px;
+	background-color: #FFF;
+	
+}
+.page_content1 p{
+	font-size: 16px;
+	color: #666;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+.name1{
+	text-decoration: none;
+}
+.name1:visited { 
+color: #000000; 
+text-decoration:none; 
+} 
+.page_name1{
+	width: 300px;
+	height: 40px;
+	
+}
+.page_name1 p{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+
+
+
+
+
+
+/* Page2 */
+.page2{
+	width: 300px;
+	height: 260px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	border-radius: 20px;
+	background-color: #FFF;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);
+}
+.page2:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.head_text2{
+	width: 300px;
+	height: 180px;
+	/* background-color: #4FACFE; */
+	border-radius: 20px;
+	background: url(../img/sea.jpg) center / cover no-repeat;
+}
+.head_text2:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+.page_content2{
+	width: 300px;
+	height: 30px;
+	background-color: #FFF;
+	
+}
+.page_content2 p{
+	font-size: 16px;
+	color: #666;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+.name2{
+	text-decoration: none;
+}
+.name2:visited { 
+color: #000000; 
+text-decoration:none; 
+} 
+.page_name2{
+	width: 300px;
+	height: 40px;
+	
+}
+.page_name2 p{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+
+
+
+
+
+/* Page3 */
+.page3{
+	width: 300px;
+	height: 260px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	border-radius: 20px;
+	background: #bdc3c7;
+	background-color: #FFF;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.page3:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.head_text3{
+	width: 300px;
+	height: 180px;
+	background-color: #4FACFE;
+	border-radius: 20px;
+	background: url(../img/网页背景.jpeg) center / cover no-repeat;
+}
+.head_text3:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+/* more模块 */
+.more{
+	width: 120px;
+	height: 34px;
+	margin: 284px auto;
+	background: #275DC5 url(../img/更多.png) no-repeat 10px center;
+	border-radius: 20px;
+}
+.more:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+.more p{
+	line-height: 34px;
+	text-align: center;
+	color: #FFF;
+	margin-left: 20px;
+	font-weight: 500;
+	text-decoration: none;
+}
+.more_text{
+	line-height: 34px;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+}
+.more_text:visited{
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+/* 工具箱样式 */
+.box_tool{
+	width: 1000px;
+	height: 340px;
+	margin: 0px auto;
+	position: relative;
+	top: 180px;
+	/* background-color: #FFF; */
+	border-radius: 20px;
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* 标题2 */
+.title2{
+	width: 1000px;
+	height: 60px;
+	background-color: #FFF;
+	border-radius: 20px;
+}
+.title2 p{ 
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 60px;
+	text-align: center;
+}
+
+
+/* Card1 */
+.card1{
+	width: 300px;
+	height: 240px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: #FFF;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
+}
+.card1:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.pic1{
+	width: 300px;
+	height: 170px;
+	/* background-color: #4FACFE; */
+	border-radius: 20px;
+	background: url(../img/designerspics.jpg) center / cover no-repeat;
+}
+.pic1:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.tool_content1{
+	width: 300px;
+	height: 20px;
+	background-color: #FFF;
+	
+}
+.tool_content1 p{
+	font-size: 16px;
+	color: #666;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+.tool_name1{
+	width: 300px;
+	height: 30px;
+	
+}
+.tool_name1 p{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+.tname1{
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+/* Card2 */
+.card2{
+	width: 300px;
+	height: 240px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	background-color: #FFF;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
+}
+.card2:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+.pic2{
+	width: 300px;
+	height: 170px;
+	/* background-color: #4FACFE; */
+	border-radius: 20px;
+	background: url(../img/bootstrap-wallpaper.webp) center / cover no-repeat;
+}
+.pic2:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+
+/* Card3 */
+.card3{
+	width: 300px;
+	height: 240px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	background-color: #FFF;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
+}
+.card3:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.pic3{
+	width: 300px;
+	height: 170px;
+	/* background-color: #4FACFE; */
+	border-radius: 20px;
+	background: url(../img/FlatUI.png) center / cover no-repeat;
+}
+.pic3:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+
+/* 底部信息样式 */
+.footer {
+
+	height: 50px;
+	background-image: linear-gradient(to bottom, #4facfe 0%, #00f2fe 100%);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+.first_line {
+	height: 30px;
+	text-align: center;
+}
+
+.last_line {
+	height: 30px;
+	text-align: center;
+}
+
+.last_line li {
+	/* border: #4FACFE 1px solid; */
+	display: inline-block;
+	margin: 0 10px;
+}
+
+
