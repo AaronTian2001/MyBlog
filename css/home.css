@@ -162,6 +162,7 @@ body {
 	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
 }
 
+
 .box_one .back1 a{
 	/* 改成块状元素 */
 	display: inline-block;
