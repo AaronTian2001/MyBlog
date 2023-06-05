@@ -1,0 +1,196 @@
+/* 总体布局 */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+input{
+	border: 0;
+	outline:none;
+}
+
+/* div{
+	border: #000 1px solid;
+} */
+
+.all{
+	width: 100vw;		/* 让宽度全覆盖 */
+	height: 100vh;
+	background: url(../img/sea2.jpg) center/ cover no-repeat;
+	
+}
+
+/* 顶部logo样式 */
+.banner {
+
+	
+	height: 105px;
+	background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
+}
+
+
+.top_text {
+	/* 打字机样式 */
+	overflow: hidden;
+	white-space: nowrap;
+	
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 105px;
+	color: #FFFFFF;
+	/* font-family: "得意黑"; */
+}
+
+
+/* 导航样式 */
+.nav {
+	background: #4facfe;
+	position: fixed;
+	/* 				top: 0;
+				left: 0; */
+	width: 100%;
+	z-index: 100;
+	/* 全覆盖 */
+}
+
+/* 当banner看不见时，讲导航栏切换此样式 */
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.nav ul {
+	display: flex;
+	justify-content: center;		/* 居中对齐 */
+	padding: 0;
+}
+
+.nav li {
+	/* 每个列表项 <li> 设置为 inline-block，
+				这样它们会在同一行显示，
+				并且可以根据需要设置左右间距 */
+	display: inline-block;
+	/* 边距为10 */
+	/* margin: 0 10px; */
+
+}
+
+.item1 {
+	background: url(../img/首页.png) no-repeat 20px center;
+}
+
+.item2 {
+	background: url(../img/笔记.png) no-repeat 20px center;
+}
+
+.item3 {
+	background: url(../img/分类.png) no-repeat 20px center;
+}
+
+.item4 {
+	background: url(../img/关于.png) no-repeat 20px center;
+}
+
+.item5 {
+	background: url(../img/链接.png) no-repeat 20px center;
+}
+
+.nav li a {
+	line-height: 50px;
+	font-size: 18px;
+	padding: 0 50px;
+	color: #FFFFFF;
+}
+
+.nav li a:link {
+	text-decoration: none;
+}
+
+.nav li:hover {
+	background-color: #6bcdf9;
+}
+
+/* 边框提示 */
+/* div{
+	border: 1px #000 solid;
+}
+ */
+
+
+/* 文章分类框样式 */
+
+.essay_box{
+	width: 1000px;
+	height: 400px;
+	position: relative;
+	top: 100px;
+	margin: 6px auto;
+	border-radius: 20px;		/* 圆角 */
+	background-color: #f8f8f8;;
+}
+
+.title4{
+	width: 1000px;
+	height: 60px;
+	margin: 0 auto;		/* 居中 */
+	line-height: 60px;
+	text-align: center;
+	border-radius: 20px;		/* 圆角 */
+	background: #FFF;		/* 背景颜色 */
+}
+
+.title4 p{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.seach_box{
+	width: 800px;
+	height: 60px;
+	margin: 6px auto;
+	padding: 2px;		/* 内边距 */
+}
+
+
+.seach{
+	width: 460px;
+	height: 50px;
+	font-size: 20px;
+/* 	background: #FFF; */
+	border-radius: 100px;
+	/* margin: 0 auto; */
+	margin-left: 150px;
+	margin-top: 10px;
+	padding: 0px 0px 0px 60px;
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+	background: url("../img/搜索.png") no-repeat 16px center #FFF;
+}
+.seach:hover{
+	box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.6);
+}
+
+
+.type{
+	width: 1000px;
+	height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
