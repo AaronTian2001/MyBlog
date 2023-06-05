@@ -121,8 +121,9 @@
 	width: 100px;
 	height: 100px;
 	position: relative;
-	top: 70px;
-	left: 670px;
+	top: 60px;
+	/* left: 670px; */
+	margin: 0px auto auto;
 	border-radius: 100px;
 	/* 覆盖全部 */
 	z-index: 999;
@@ -142,8 +143,8 @@
 	width: 800px;
 	height: 420px;
 	position: relative;
-	top: 20px;
-	margin: 10px auto;
+	top: 10px;
+	margin: 6px auto;
 	border-radius: 20px;
 	background-color: #f8f8f8;
 	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
