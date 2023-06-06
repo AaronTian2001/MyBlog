@@ -10,7 +10,7 @@
 .all{
 	width: 100vw;
 	height: 100vh;
-	background: url(../img/正在建设.png) center no-repeat;
+	background: url(../img/正在建设.png) center 100px no-repeat;
 	background-size: 30%;
 }
 
@@ -19,8 +19,27 @@
 	font-size: 40px;
 	font-weight: bold;
 	position: relative;
-	top: 560px;
+	margin: 40px 0px auto;
 	
+}
+
+
+.all .back2{
+	width: 120px;
+	height: 40px;
+	position: relative;
+	background-color: #275DC5;
+	border-radius: 20px;
+	margin: 10px auto;
+}
+.all .back2 .back_index{
+	width: 120px;
+	height: 40px;
+	display: flex;
+	line-height: 40px;
+	padding-left: 28px;
+	color: #FFF;
+	text-decoration: none;
 }
 
 

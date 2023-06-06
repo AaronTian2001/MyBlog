@@ -14,6 +14,12 @@ input{
 	border: #000 1px solid;
 } */
 
+
+li:hover{
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+
 .all{
 	width: 100vw;		/* 让宽度全覆盖 */
 	height: 100vh;
@@ -124,12 +130,13 @@ input{
 
 .essay_box{
 	width: 1000px;
-	height: 400px;
+	height: 360px;
 	position: relative;
 	top: 100px;
 	margin: 6px auto;
 	border-radius: 20px;		/* 圆角 */
-	background-color: #f8f8f8;;
+	background-color: #f8f8f8;
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .title4{
@@ -176,12 +183,108 @@ input{
 .type{
 	width: 1000px;
 	height: 250px;
+	display: flex;
+	margin-top: 30px;
+}
+
+/* 前端类文章排行榜 */
+.type_card1{
+	width: 300px;
+	height: 130px;
+	position: relative;
+	margin: 20px auto;
+	background: #FFF;
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+}
+
+.title_web{
+	width: 300px;
+	height: 40px;
+	display: flex;
+}
+
+.title_web p{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-left: 10px;
+}
+
+.more_page{
+	position: relative;
+	line-height: 40px;
+	padding: 0px 0px 0px 120px;
+	font-size: 14px;
+	text-decoration: none;
+}
+.more_page2{
+	position: relative;
+	line-height: 40px;
+	padding: 0px 0px 0px 140px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.list1{
+	width: 300px;
+	height: 150px;
+}
+.list1 li{
+	line-height: 30px;
+	/* border: 1px #000 solid; */
+	/* padding: 0px 0px 0px 16px; */
+}
+/* 排行榜每一列的样式 */
+.list_item{
+	text-decoration: none;
+}
+.list_item:visited{
+	color: #000;
 }
 
 
+.list1 .top{
+	background: url("../img/1.png") no-repeat 10px center;
+	padding: 0px 0px 0px 36px;
+	font-size: 14px;
+	
+}
+.list1 .second{
+	background: url("../img/2.png") no-repeat 10px center;
+	padding: 0px 0px 0px 36px;
+	font-size: 14px;
+}
+.list1 .third{
+	background: url("../img/3.png") no-repeat 10px center;
+	padding: 0px 0px 0px 36px;
+	border-radius: 10px;
+	font-size: 14px;
+}
 
 
+/* 人工智能类文章排行榜 */
+.type_card2{
+	width: 300px;
+	height: 200px;
+	position: relative;
+	margin: 20px auto;
+}
 
+
+/* 后端类文章排行榜 */
+.type_card3{
+	width: 300px;
+	height: 200px;
+	position: relative;
+	margin: 20px auto;
+}
+
+/* .type_card4{
+	width: 100px;
+	height: 100px;
+	
+} */
 
 
 
